@@ -1,0 +1,69 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#login
+{
+    background-image: url('back_img.jfif');
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+h1
+{
+    text-align: center;
+    color: blue;
+}
+
+.content
+{
+    background-color: royalblue;
+    padding: 30px;
+    min-width: auto;
+    min-height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content div
+{
+    background-color: royalblue;
+    font-size: medium;
+}
+
+input
+{
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    margin-top: 4px;
+}
+
+.invalid
+{
+    color: red;
+}
+
+@media only screen and (min-width: 350px)
+{
+    .content
+    {
+	min-width: 350px;
+    }
+} 
+
+@media only screen and (min-width: 762px)
+{
+    .content
+    {
+	min-width: 350px;
+	position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,27 @@
+h2
+{
+    color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+.container-main
+{
+    background-color: #eee;
+    margin: 10px auto;
+    max-width: 300px;
+    min-height: 110px;
+    padding: 20px;
+}
+
+.container-main select
+{
+    margin-bottom: 5px;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
