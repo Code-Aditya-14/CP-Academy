@@ -18,7 +18,8 @@ function submitted()
             console.log(hand);
             var res=data.result;
             var res1=res[0];
-            rate=res.rating;
+            rate=res1.rating;
+	    console.log(rate);
             localStorage.setItem("rating", rate);
             window.location="main.html";
         }
