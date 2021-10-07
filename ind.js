@@ -19,16 +19,15 @@ function submitted()
             var res=data.result;
             var res1=res[0];
             rate=res1.rating;
-	    console.log(rate);
+	        console.log(rate);
             localStorage.setItem("rating", rate);
             window.location="main.html";
         }
         else
         {
             console.log(hand);
-            var abcd=document.getElementById("invalid");
-            console.log(abcd);
-            abcd.innerHTML="Invalid Codeforces Handle! Please try again."
+            var inv=document.getElementById("invalid");
+            inv.innerHTML="Invalid Codeforces Handle! Please try again."
         }
     }
     getHandle();
