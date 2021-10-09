@@ -4,4 +4,4 @@ This website is build for practicing Data Structures and Algorithms problem of C
 
 Also feel free to create any new issue that improves the website.
 
-For contribution related guidelines check [Contribution](https://github.com/Code-Aditya-14/CP-Academy/blob/main/CONTRIBUTING.md).
+For contribution related guidelines check [Contribution](https://github.com/Code-Aditya-14/CP-Academy/blob/main/CONTRIBUTING.md). Also don't forget to follow the templates to make the job easier.
