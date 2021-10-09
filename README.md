@@ -1,6 +1,6 @@
 # CP Academy
 
-This website is build for practising Data Sturctures and Algorithms problem. You can select any one topic and get the problems in difficulty-wise sections. And the difficulty level of the questions will be based your rating.
+This website is build for practicing Data Structures and Algorithms problem of Codeforces. You can select any one topic and get the problems in difficulty-wise sections. And the difficulty level of the problems will be based your rating. Also the problems will change when new problems are added to the problem set of Codeforces.
 
 Also feel free to create any new issue that improves the website.
 
