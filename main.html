@@ -28,95 +28,97 @@
     <div class="container-main">
         <p>Select a topic you want to study</p>
         <select name="tags" id="tag">
-                <option value="null"></option>
-                <option value="2-sat">2-sat</option>
-                <option value="binary search">binary search</option>
-                <option value="bitmasks">bitmasks</option>
-                <option value="brute force">brute force</option>
-                <option value="chinese remainder theorem">chinese remainder theorem</option>
-                <option value="combinatorics">combinatorics</option>
-                <option value="constructive algorithms">constructive algorithms</option>
-                <option value="data structures">data structures</option>
-                <option value="dfs and similar">dfs and similar</option>
-                <option value="divide and conquer">divide and conquer</option>
-                <option value="dp">dp</option>
-                <option value="dsu">dsu</option>
-                <option value="expression parsing">expression parsing</option>
-                <option value="fft">fft</option>
-                <option value="flows">flows</option>
-                <option value="games">games</option>
-                <option value="geometry">geometry</option>
-                <option value="graph matchings">graph matchings</option>
-                <option value="graphs">graphs</option>
-                <option value="greedy">greedy</option>
-                <option value="hashing">hashing</option>
-                <option value="implementation">implementation</option>
-                <option value="interactive">interactive</option>
-                <option value="math">math</option>
-                <option value="matrices">matrices</option>
-                <option value="meet-in-the-middle">meet-in-the-middle</option>
-                <option value="number theory">number theory</option>
-                <option value="probabilities">probabilities</option>
-                <option value="schedules">schedules</option>
-                <option value="shortest paths">shortest paths</option>
-                <option value="sorting">sorting</option>
-                <option value="string suffix structures">string suffix structures</option>
-                <option value="strings">strings</option>
-                <option value="ternary search">ternary search</option>
-                <option value="trees">trees</option>
-                <option value="two pointers">two pointers</option>
-            </select>
+            <option value="null"></option>
+            <option value="2-sat">2-sat</option>
+            <option value="binary search">binary search</option>
+            <option value="bitmasks">bitmasks</option>
+            <option value="brute force">brute force</option>
+            <option value="chinese remainder theorem">chinese remainder theorem</option>
+            <option value="combinatorics">combinatorics</option>
+            <option value="constructive algorithms">constructive algorithms</option>
+            <option value="data structures">data structures</option>
+            <option value="dfs and similar">dfs and similar</option>
+            <option value="divide and conquer">divide and conquer</option>
+            <option value="dp">dp</option>
+            <option value="dsu">dsu</option>
+            <option value="expression parsing">expression parsing</option>
+            <option value="fft">fft</option>
+            <option value="flows">flows</option>
+            <option value="games">games</option>
+            <option value="geometry">geometry</option>
+            <option value="graph matchings">graph matchings</option>
+            <option value="graphs">graphs</option>
+            <option value="greedy">greedy</option>
+            <option value="hashing">hashing</option>
+            <option value="implementation">implementation</option>
+            <option value="interactive">interactive</option>
+            <option value="math">math</option>
+            <option value="matrices">matrices</option>
+            <option value="meet-in-the-middle">meet-in-the-middle</option>
+            <option value="number theory">number theory</option>
+            <option value="probabilities">probabilities</option>
+            <option value="schedules">schedules</option>
+            <option value="shortest paths">shortest paths</option>
+            <option value="sorting">sorting</option>
+            <option value="string suffix structures">string suffix structures</option>
+            <option value="strings">strings</option>
+            <option value="ternary search">ternary search</option>
+            <option value="trees">trees</option>
+            <option value="two pointers">two pointers</option>
+        </select>
         <br>
         <button type="submit" name="apply" onclick="applied()">Apply</button>
     </div>
-    <div class="questions">
-        <div id="basics">
-            <table id="base">
-                <caption>Basics</caption>
-                <tr>
-                    <td>S.No.</td>
-                    <td>Questions</td>
-                </tr>
-            </table>
-            <p id="base_inv"></p>
-        </div>
-        <div id="easy">
-            <table id="ease">
-                <caption>Easy</caption>
-                <tr>
-                    <th>S.No.</th>
-                    <th>Questions</th>
-                </tr>
-            </table>
-            <p id="easy_inv"></p>
-        </div>
-        <div id="medium">
-            <table id="med">
-                <caption>Medium</caption>
-                <tr>
-                    <th>S.No.</th>
-                    <th>Questions</th>
-                </tr>
-            </table>
-            <p id="medium_inv"></p>
-        </div>
-        <div class="hard">
-            <table id="diff">
-                <caption>Hard</caption>
-                <tr>
-                    <th>S.No.</th>
-                    <th>Questions</th>
-                </tr>
-            </table>
-            <p id="hard_inv"></p>
+    <div class="container">
+        <div class="questions">
+            <div id="basics">
+                <table id="base">
+                    <caption>Basics</caption>
+                    <tr>
+                        <td>S.No.</td>
+                        <td>Questions</td>
+                    </tr>
+                </table>
+                <p id="base_inv"></p>
+            </div>
+            <div id="easy">
+                <table id="ease">
+                    <caption>Easy</caption>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Questions</th>
+                    </tr>
+                </table>
+                <p id="easy_inv"></p>
+            </div>
+            <div id="medium">
+                <table id="med">
+                    <caption>Medium</caption>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Questions</th>
+                    </tr>
+                </table>
+                <p id="medium_inv"></p>
+            </div>
+            <div class="hard">
+                <table id="diff">
+                    <caption>Hard</caption>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Questions</th>
+                    </tr>
+                </table>
+                <p id="hard_inv"></p>
+            </div>
         </div>
     </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
 
-    <script src="main.js"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>
