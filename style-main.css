@@ -38,17 +38,23 @@ button:hover{
 .container{
     background-color: rgb(253, 242, 220); border: 2px white; border-radius: 20px;
     margin: 55px auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500; font-size: 1.7rem;
-    max-width: 350px;
+    max-width:inherit;
     min-height: 90px;
     padding: 20px;
 }
 table, th, td
 {
-    width: 190px;
+    width: 700px;
+    max-width: 90vw;
     margin-top: 50px;
     margin: auto;
     border: 2px solid rgb(3, 77, 64);
     border-collapse:collapse;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.5rem; font-weight: 600;
+}
+#base_inv, #easy_inv, #medium_inv, #hard_inv{
+    margin-top: 10px; margin-left: 10px; text-align: center;
+    font-size: 1.3rem;
+    color: red;
 }
