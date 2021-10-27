@@ -5,22 +5,27 @@ function submitted()
 {
     hand = document.getElementById("handle-name").value;
     console.log(hand);
-    const api_url='https://codeforces.com/api/user.info?handles='+hand;
+    const api_url=' https://codeforces.com/api/user.rating?handle='+hand;
     var ok;
     async function getHandle()
     {
         const reponse=await fetch(api_url);
         const data=await reponse.json();
         ok=data.status;
-        console.log(ok);
         if(ok==="OK")
         {
-            console.log(hand);
             var res=data.result;
-            var res1=res[0];
-            rate=res1.rating;
-	        console.log(rate);
-            localStorage.setItem("rating", rate);
+            var len=res.length;
+            if(len===0)
+            {
+                localStorage.setItem("rating", 0);
+            }
+            else
+            {
+                var res1=res[len-1];
+                rate=res1.newRating;
+                localStorage.setItem("rating", rate);
+            }
             window.location="main.html";
         }
         else

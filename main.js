@@ -10,7 +10,11 @@ function applied()
 
     var tag=document.getElementById("tag").value;
     console.log(tag);
-    const api_url='https://codeforces.com/api/problemset.problems?tags='+tag;
+    var api_url='https://codeforces.com/api/problemset.problems?tags='+tag;
+    if(tag=="null")
+    {
+        api_url='https://codeforces.com/api/problemset.problems';
+    }
     async function get_questions()
     {
         const reponse=await fetch(api_url);

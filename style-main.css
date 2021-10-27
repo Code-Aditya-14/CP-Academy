@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');   
    
-   body{
+body{
     background-color: rgb(25, 162, 226); 
     background-image: linear-gradient(to right, rgb(25, 162, 226) , rgb(116, 240, 245));  
 }
@@ -38,7 +38,7 @@ button:hover{
 .container{
     background-color: rgb(253, 242, 220); border: 2px white; border-radius: 20px;
     margin: 55px auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500; font-size: 1.7rem;
-    max-width:inherit;
+    max-width: 900px;
     min-height: 90px;
     padding: 20px;
 }
@@ -55,6 +55,6 @@ table, th, td
 }
 #base_inv, #easy_inv, #medium_inv, #hard_inv{
     margin-top: 10px; margin-left: 10px; text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: red;
 }
