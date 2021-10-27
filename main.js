@@ -6,10 +6,8 @@ var prev_h=0;
 function applied()
 {
     rate=localStorage.getItem('rating');
-    console.log(rate);
 
     var tag=document.getElementById("tag").value;
-    console.log(tag);
     var api_url='https://codeforces.com/api/problemset.problems?tags='+tag;
     if(tag=="null")
     {
@@ -48,6 +46,7 @@ function applied()
                     break;
                 }
             }
+            
             if(basic_n.length>0)
             {
                 var table1=document.getElementById("base");
@@ -109,6 +108,7 @@ function applied()
                     break;
                 }
             }
+            
             if(easy_n.length>0)
             {
                 var table1=document.getElementById("ease");
@@ -170,6 +170,7 @@ function applied()
                     break;
                 }
             }
+
             if(med_n.length>0)
             {
                 var table1=document.getElementById("med");

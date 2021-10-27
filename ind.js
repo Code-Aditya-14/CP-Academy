@@ -4,7 +4,6 @@ var rate=0;
 function submitted()
 {
     hand = document.getElementById("handle-name").value;
-    console.log(hand);
     const api_url=' https://codeforces.com/api/user.rating?handle='+hand;
     var ok;
     async function getHandle()
@@ -30,7 +29,6 @@ function submitted()
         }
         else
         {
-            console.log(hand);
             var inv=document.getElementById("invalid");
             inv.innerHTML="Invalid Codeforces Handle! Please try again."
         }
