@@ -69,11 +69,17 @@ table, th, td
     max-width: 90vw;
     margin-top: 50px;
     margin-left: 10px;
+    margin-right: 10px;
     margin: auto;
+    word-wrap: break-word;
     border: 2px solid rgb(3, 77, 64);
     border-collapse:collapse;
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.5rem; font-weight: 600;
+}
+
+td a {
+    text-decoration: none;
 }
 
 #base_inv, #easy_inv, #medium_inv, #hard_inv{
