@@ -78,10 +78,6 @@ table, th, td
     font-family: Georgia, 'Times New Roman', Times, serif; font-size: 1.5rem; font-weight: 600;
 }
 
-td a {
-    text-decoration: none;
-}
-
 #base_inv, #easy_inv, #medium_inv, #hard_inv{
     margin-top: 10px; margin-left: 10px; text-align: center;
     font-size: 1.6rem;
