@@ -137,6 +137,7 @@ function applied()
                     var link_node=document.createElement("a");
                     link_node.setAttribute("href", link);
                     link_node.setAttribute("target", "_blank");
+                    link_node.setAttribute("style", "text-decoration: none;");
                     link_node.innerText=txt;
                     document.getElementById(easy_n[i]).appendChild(link_node);
                 }
@@ -199,6 +200,7 @@ function applied()
                     var link_node=document.createElement("a");
                     link_node.setAttribute("href", link);
                     link_node.setAttribute("target", "_blank");
+                    link_node.setAttribute("style", "text-decoration: none;");
                     link_node.innerText=txt;
                     document.getElementById(med_n[i]).appendChild(link_node);
                 }
@@ -260,6 +262,7 @@ function applied()
                     var link_node=document.createElement("a");
                     link_node.setAttribute("href", link);
                     link_node.setAttribute("target", "_blank");
+                    link_node.setAttribute("style", "text-decoration: none;");
                     link_node.innerText=txt;
                     document.getElementById(dif_n[i]).appendChild(link_node);
                 }
